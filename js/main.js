@@ -50,3 +50,5 @@ if (document.readyState === 'loading') {
 } else {
     initApp();
 }
+```
+https://ymt-nk40.github.io/flux-landing
