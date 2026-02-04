@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUX - 3D Motion Design Course</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconify Icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body class="antialiased selection:bg-orange-500/30">
+    <!-- Background Grid -->
+    <div class="fixed inset-0 z-0 bg-grid-pattern bg-[length:4rem_4rem] pointer-events-none"></div>
+    
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main" class="sticky top-0 z-50 bg-[#0b0c15]/60 border-b border-white/5 backdrop-blur-lg">
+        <div id="navbar" class="max-w-7xl mx-auto h-16 md:h-20 px-4 md:px-6 flex items-center justify-between"></div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <header id="hero" role="region" aria-label="Hero" class="overflow-hidden z-10 border-b border-white/5 pt-20 pb-32 relative"></header>
+
+        <!-- Modules Grid -->
+        <section id="modules" role="region" aria-label="Course Modules" class="border-b border-white/5 relative z-20 bg-dark/50 backdrop-blur-md"></section>
+
+        <!-- Feature Carousel -->
+        <section id="feature" role="region" aria-label="Featured Module" class="overflow-hidden border-b border-white/5 relative"></section>
+
+        <!-- Bento Grid -->
+        <section id="features" role="region" aria-label="Platform Features" class="bg-[#0B0C15] border-b border-white/5 pt-24 pb-24 relative"></section>
+
+        <!-- Mentors Section -->
+        <section id="mentors" role="region" aria-label="Industry Mentors" class="z-10 border-b border-white/5 pt-24 pb-24 relative"></section>
+
+        <!-- Student Showcase -->
+        <section id="showcase" role="region" aria-label="Student Showcase" class="overflow-hidden pt-24 pb-24 relative"></section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" role="region" aria-label="Pricing Plans" class="overflow-hidden border-b border-white/5 pt-32 pb-32 relative"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" role="contentinfo" class="overflow-hidden border-t border-white/5 pt-20 pb-10 relative"></footer>
+
+    <!-- Scripts (Module Format) -->
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/carousel.js"></script>
+    <script type="module" src="js/pricing.js"></script>
+</body>
+</html>
